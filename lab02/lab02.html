@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab02</title>
+</head>
+<body>
+    <h1>Palmeiras: O Maior Time do Brasil</h1>
+    <h4>Sociedade Esportiva Palmeiras, o time com mais títulos nacionais</h4>
+    <p>Sociedade Esportiva Palmeiras, conhecida popularmente como Palmeiras, é um clube poliesportivo brasileiro da cidade de São Paulo, capital do estado homônimo.</p>
+    <p> Foi fundado em 26 de agosto de 1914 e suas cores, presentes no escudo e bandeira oficial, são o verde e branco.</p>
+    <p>Tem como modalidade esportiva principal o futebol, como um dos clubes mais vencedores e de maior relevância em todo o continente, além de estar entre aqueles com maior torcida do país</p>
+    <h4>Os 10 maiores artilheiros da história do Palmeiras são:</h4>
+    <ol>
+        <li>Heitor: 315 gols</li>
+        <li>César Maluco: 182 gols</li>
+        <li>Ademir da Guia 155 gols</li>
+        <li>Lima: 149 gols</li>
+        <li>Servílio: 139 gols</li>
+        <li>Rodrigues Tatu: 131 gols</li>
+        <li>Humberto Tozzi: 127 gols</li>
+        <li>Evair: 126 gols</li>
+        <li>Luizinho: 122 gols</li>
+        <li>Tupãzinho: 122 gols</li>
+    </ol>
+    <img src="https://sep-bucket-prod.s3.amazonaws.com/wp-content/uploads/2019/05/Ademir_rosto-227x340.jpg">
+    <h5>Ademir da Guia, maior ídolo da história do clube</h5>
+    <h4>O Palmeiras possui os seguintes títulos:</h4>
+    <ul>
+        <li>Copa Rio (Torneio Internacional de Clubes Campeões) em 1951</li>
+        <li>3 Conmebol Libertadores em 1999, 2020 e 2021</li>
+        <li>12 Campeonatos Brasileiros em 1960, 1967, 1967 (Taça Brasil), 1969, 1972, 1973, 1993, 1994, 2016, 2018, 2022 e 2023</li>
+        <li>2 Campeonatos Brasileiros Série B em 2003 e 2013</li>
+        <li>4 Copas do Brasil em 1998, 2012, 2015 e 2020</li>
+        <li>1 Copa dos Campeões em 2000</li>
+    </ul>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OOcj2i-tZgY?si=nzr0zBKEni_tKRtd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h5>Palmeiras erguendo a taça de Campeão da Libertadores 2021</h5>
+    <h2>Dados Palmeirenses</h2>
+    <form action="/enviar_formulário" method="post">
+        <label for="Nome">Nome:</label>
+        <input type="text" id="Nome" name="Nome">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email">
+        <br>
+        <br>
+        <div class="container">
+        <label for="ídolos">Escolha seu maior ídolo:</label>
+        <select id="ídolos" name="ídolos">
+            <option value="Ademir da Guia">Ademir da Guia</option>
+            <option value="Marcos">Marcos</option>
+            <option value="Dudu">Dudu</option>
+        </select>
+        </div>
+        <br>
+        <br>
+        <label for="Mensagem">Mensagem:</label>
+        <br>
+        <textarea id="Mensagem" name="Mensagem" rows="4" cols="50"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    <div class="container">
+        <h2>Gráfico em Canvas</h2>
+        <canvas id="meuCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+        <script>
+            var c = document.getElementById("meuCanvas");
+            var ctx = c.getContext("2d");
+            ctx.fillStyle = "#0000FF";
+            ctx.fillRect(20, 20, 150, 75);
+        </script>
+    </div>
+    <div class="container">
+        <h2>Gráfico SVG</h2>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"></circle>
+        </svg>
+    </div>
+</body>
+</html>
