@@ -1,4 +1,1 @@
-# Desenvolvimento_Web
-Atividades de Desenvolvimento de Sistemas Web
-
-2024
+Na aula do lab16, fizemos uma calculadora utilizando html, css e javascript.
