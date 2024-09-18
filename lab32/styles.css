@@ -1,0 +1,22 @@
+body {
+    font-family: Garamond, serif;
+    padding: 20px;
+    line-height: 1.4;
+    background-image: url("bola.jpg")
+}
+
+#question-container div {
+    margin-bottom: 60px;
+}
+
+label {
+    display: block;
+}
+
+#result div {
+    font-family: 
+}
+
+button {
+    background-color: #05df8f;
+}
